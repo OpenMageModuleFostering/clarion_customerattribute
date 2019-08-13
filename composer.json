@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Clarion_Customerattribute",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Customer Attribute Management",
+    "authors": [
+    {
+        "name": "Clarion Tech",
+        "email": "magento@clariontechnologies.co.in"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
