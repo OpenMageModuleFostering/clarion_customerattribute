@@ -7,7 +7,7 @@
  * @author      Clarion Magento Team
  */
 
-class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Tab_Main extends Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Abstract
+class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Tab_Main extends Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Main
 {
     
     /**

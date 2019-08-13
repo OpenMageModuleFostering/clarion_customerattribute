@@ -7,7 +7,8 @@
  * @author      Clarion Magento Team
  * 
  */
-abstract class Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Options_Abstract extends Mage_Adminhtml_Block_Widget
+class Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Options_Options 
+    extends Mage_Adminhtml_Block_Widget
 {
 
     public function __construct()

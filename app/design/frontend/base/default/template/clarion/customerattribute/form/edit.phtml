@@ -107,7 +107,7 @@
                                      
                                    <?php elseif($attribute->getFrontendInput()== 'date'):?>
                                     <input type="text" style="width:110px !important;" class=" input-text <?php echo $fieldRequiredClass; ?> " title="<?php echo $this->__($frontEndLabel); ?>" value="<?php echo $this->helper('clarion_customerattribute/customerattribute')->getFormattedDate($fieldValue); ?>" id="<?php echo $attribute->getAttributeCode(); ?>" name="<?php echo $attribute->getAttributeCode(); ?>">
-                                    <img style="" title="Select Date" id="<?php echo $attribute->getAttributeCode(); ?>_trig" class="v-middle" alt="" src="<?php echo $this->getSkinUrl('images/grid-cal.gif') ?>">
+                                    <img style="" title="Select Date" id="<?php echo $attribute->getAttributeCode(); ?>_trig" class="v-middle" alt="" src="<?php echo $this->getSkinUrl('images/clarion/customerattribute/grid-cal.gif') ?>">
                                         <script type="text/javascript">
                                         //&lt;![CDATA[
                                             Calendar.setup({

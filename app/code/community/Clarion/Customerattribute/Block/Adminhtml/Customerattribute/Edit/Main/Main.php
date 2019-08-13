@@ -6,7 +6,7 @@
  * @package    Clarion_Customerattribute
  * @author     Clarion Magento Team
  */
-abstract class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Abstract extends Mage_Adminhtml_Block_Widget_Form
+class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Main extends Mage_Adminhtml_Block_Widget_Form
 {
     protected $_attribute = null;
 
@@ -27,7 +27,7 @@ abstract class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit
     /**
      * Preparing default form elements for editing attribute
      *
-     * @return Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Abstract
+     * @return Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Main
      */
     protected function _prepareForm()
     {
@@ -153,7 +153,7 @@ abstract class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit
     /**
      * Initialize form fileds values
      *
-     * @return Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Abstract
+     * @return Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Main
      */
     protected function _initFormValues()
     {
@@ -166,7 +166,7 @@ abstract class  Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit
     /**
      * This method is called before rendering HTML
      *
-     * @return Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Abstract
+     * @return Clarion_Customerattribute_Block_Adminhtml_Customerattribute_Edit_Main_Main
      */
     protected function _beforeToHtml()
     {
