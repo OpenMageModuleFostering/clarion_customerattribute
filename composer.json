@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Clarion_Customerattribute",
+    "name": "openmage-module-fostering\/clarion_customerattribute",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Customer Attribute Management",
     "authors": [
